@@ -371,7 +371,7 @@ func getTeam(props getTeamProps) templ.Component {
 				return templ_7745c5c3_Err
 			}
 			if !props.team.IsOwners() {
-				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 27, "<div class=\"field\"><button class=\"btn w-40\">Save changes</button></div>")
+				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 27, "<div class=\"field\"><button class=\"btn w-40\" id=\"save-team-permissions-button\">Save changes</button></div>")
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
